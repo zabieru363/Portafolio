@@ -8,6 +8,13 @@
         <link rel="stylesheet" type="text/css" href="css/styles.css">
     </head>
     <body>
+        <!-- HEADER -->
+        <header id="flex-header">
+            <img class="image" src="img/zabieru.png" alt="foto">
+            <h1>Javier López Carretero</h1>
+            <p class="nickname">Zabieru</p>
+        </header>
+
         <!-- FONT AWESOME -->
         <script src="https://kit.fontawesome.com/833d921ab7.js" crossorigin="anonymous"></script>
     </body>
