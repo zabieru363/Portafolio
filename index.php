@@ -77,7 +77,7 @@
                         Una página que creé que sirve para explicar un poco sobre mi, las
                         tecnologias con las que trabajo, los proyectos que he hecho, etc.
                     </p>
-                    <a href=""><i class="fa-brands fa-github"></i> Ver proyecto</a>
+                    <a href="https://github.com/zabieru363/Portafolio" target="blank"><i class="fa-brands fa-github"></i> Ver proyecto</a>
                 </div>
             </div>
         </section>
