@@ -157,3 +157,69 @@ section {
 .download-button:hover {
     background: rgb(0, 52, 143);
 }
+
+/* ESTILOS PORTFOLIO */
+
+#portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    flex-flow: column wrap;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.project-box {
+    object-fit: contain;
+    display: flex;
+    text-align: center;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 40rem;
+    height: 20rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 1rem;
+    transition: all 1s;
+}
+
+.project-box:hover {
+    transform: rotate(2deg);
+}
+
+.project-1 {
+    background: url("../img/proyecto1.png") no-repeat center;
+}
+
+.project-box > * {
+    color: white;
+    text-transform: uppercase;
+}
+
+.project-box a {
+    cursor: pointer;
+    color: white;
+    padding: 1rem;
+    font-size: 1rem;
+    background: rgb(0, 94, 255);
+    border: none;
+    text-decoration: none;
+    text-transform: none;
+}
+
+@media screen and (max-width: 600px) {
+    .projects {
+        flex-direction: column;
+    }
+
+    .project-box {
+        width: 15rem;
+        height: 10rem;
+    }
+}
