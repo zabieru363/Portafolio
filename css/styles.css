@@ -223,3 +223,106 @@ section {
         height: 10rem;
     }
 }
+
+/* ESTILOS CONTACTO */
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: #222222;
+    padding: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.contact-form > * {
+    margin: .2rem;
+}
+
+.contact-form label {
+    text-align: start;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+}
+
+.contact-form input, textarea {
+    background: rgb(225, 225, 225);
+    border: .2rem solid black;
+    color: black;
+    font-size: 1.5rem;
+}
+
+input::placeholder {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+textarea::placeholder {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+input:focus {
+    border: .2rem solid rgb(0, 132, 255);
+}
+
+textarea:focus {
+    border: .2rem solid rgb(0, 132, 255);
+}
+
+.contact-form input[type = text],
+input[type = email] {
+    width: 30rem;
+    padding: .5rem;
+}
+
+.send-btn {
+    cursor: pointer;
+    color: white !important;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+    background: rgb(0, 94, 255) !important;
+    border: none !important;
+    transition: all 1s;
+}
+
+.send-btn:hover {
+    background: rgb(0, 52, 143) !important;
+}
+
+@media screen and (max-width: 700px) {
+    .contact-form {
+        padding: 1rem;
+    }
+
+    .contact-form > * {
+        margin: .2rem;
+        font-size: .5rem;
+    }
+
+    .contact-form label {
+        font-size: .8rem;
+    }
+
+    .contact-form input[type = text],
+    input[type = email] {
+        width: 18rem;
+        padding: .2rem;
+    }
+
+    .contact-from input, textarea {
+        font-size: .5rem;
+    }
+}
