@@ -103,3 +103,57 @@ section {
         margin: 0;
     }
 }
+
+/* ESTILOS SOBRE MI */
+
+#about-me {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    text-shadow: 4px 5px 0 #222222;
+}
+
+@media screen and (max-width: 600px) {
+    #about-me {
+        text-align: center;
+    }
+}
+
+.skills-container {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    flex-direction: column;
+}
+
+.skills-container img {
+    object-fit: contain;
+    filter: grayscale(50%);
+    width: 5rem;
+    height: 5rem;
+    margin: .5rem;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.download-button {
+    cursor: pointer;
+    padding: 1.5rem;
+    font-size: 1rem;
+    background: rgb(0, 94, 255);
+    border: none;
+    text-decoration: none;
+    text-shadow: none;
+    transition: all 1s;
+}
+
+.download-button:hover {
+    background: rgb(0, 52, 143);
+}
