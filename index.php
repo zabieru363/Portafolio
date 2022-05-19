@@ -61,6 +61,7 @@
                 </div>
                 <h3>Otros</h3>
                 <div class="skills">
+                    <img src="img/git-logo.png" alt="git">
                     <img src="img/photoshop-logo.png" alt="photoshop">
                 </div>
             </div>
