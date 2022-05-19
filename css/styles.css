@@ -326,3 +326,30 @@ input[type = email] {
         font-size: .5rem;
     }
 }
+
+/* ESTILOS FOOTER */
+
+footer {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    padding: 2rem;
+    background: #222222;
+}
+
+footer a {
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 700px) {
+    footer {
+        width: 100%;
+    }
+
+    .copyrigth {
+        font-size: 1.5rem;
+    }
+}
