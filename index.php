@@ -8,6 +8,7 @@
         <link rel="stylesheet" type="text/css" href="css/styles.css">
     </head>
     <body>
-        
+        <!-- FONT AWESOME -->
+        <script src="https://kit.fontawesome.com/833d921ab7.js" crossorigin="anonymous"></script>
     </body>
 </html>
