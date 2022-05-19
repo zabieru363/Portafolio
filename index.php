@@ -109,6 +109,9 @@
             <a href="https://twitter.com/Zabieru222" target="blank"><i class="fa-brands fa-twitter"></i> Zabieru222</a>
         </footer>
 
+        <!-- ARCHIVOS DE JAVASCRIPT -->
+        <script src="js/showDescription.js"></script>
+
         <!-- FONT AWESOME -->
         <script src="https://kit.fontawesome.com/833d921ab7.js" crossorigin="anonymous"></script>
     </body>
