@@ -67,7 +67,7 @@
             $subject = "Mensaje de la página portafolio";
             $mailMessage = "Nombre: $name\n Email: $email\n Mensaje: $message";
 
-            if(mail($to,$subject,$mailMessage))
+            if(mail($to,$subject,$mailMessage, $email))
             {
                 $errorMessage = "¡Mensaje enviado!";
                 $class = "successfully";
