@@ -1,3 +1,6 @@
+<?php
+    require_once "app/sendMail.php";
+?>
 <!-- SECCIÓN CONTACTO -->
 <section id="contact">
     <h1 class="section-title">Contacto</h1>
@@ -12,5 +15,6 @@
         <textarea name="message" id="message_box" cols="60" rows="10" placeholder="Dudas, cuestiones, etc."></textarea>
 
         <input class="send-btn" type="submit" name="Send" value="Enviar mensaje">
+        <span class="<?=$class?>"><?=$errorMessage?></span>
     </form>
 </section>
