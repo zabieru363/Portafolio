@@ -28,6 +28,8 @@
                 $project->__set("Descripcion", $row["Descripcion"]);
                 $project->__set("Enlace", $row["Enlace"]);
                 $project->__set("Foto", $row["Foto"]);
+
+                $this->projects[] = $project;
             }
         }
     }
