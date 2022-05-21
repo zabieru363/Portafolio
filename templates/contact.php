@@ -1,5 +1,5 @@
 <?php
-    require_once "app/sendMail.php";
+    require_once "app/controllers/sendMail.php";
 ?>
 <!-- SECCIÓN CONTACTO -->
 <section id="contact">
